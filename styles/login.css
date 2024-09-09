@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.left{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+}
+
+.right{
+    width: 30%;
+    background-color: rgb(18, 112, 235);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+  background-color: aliceblue;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  border-radius: 5vh;
+}
+
+input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1vh;
+    border: gainsboro;
+    padding: 1vh;
+}
+
+.margintop{
+    margin-top: 1vh;
+}
+
+@media screen and (max-width: 786px) {
+    .left{
+        display: none;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    input{
+        width: 60vw;
+    }
+}

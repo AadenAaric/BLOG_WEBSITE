@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>login</title>
+</head>
+<body>
+   <div class="left">
+    <h1>
+        Welcome to Your Blog    
+    </h1>
+    <h3>Change the way you live, JOIN US</h3>
+   </div>
+   <div class="right">
+    <form id="loginForm">
+        
+        <h1>Login</h1>
+        <div class="margintop" style="display:flex; flex-direction: column;">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required placeholder="Enter Username">
+        </div>
+
+        <div class="margintop" style="display:flex; flex-direction: column;">
+        <label for="password">Password</label>
+        <input class="inputtext" name="password" id="password" required type="password" placeholder="Enter Username">
+
+        </div>
+        <button type="submit" class="btn btn-primary margintop">Login</button>
+        
+        <h6><a href="index.html"> Go back? </a></h6>
+        
+        
+    </form>
+    <script src="/scripts/login.js"></script>
+   </div> 
+</body>
+</html>

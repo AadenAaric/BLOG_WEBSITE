@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 209, 209);
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.post{
+    width: 100%;
+    min-height: 25vh;
+    background-color: rgb(232, 240, 237);
+    padding: 1vh;
+    padding-left: 2vh;
+
+    border-radius: 3vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0 4px 8px rgba(31, 63, 121, 0.4);
+}
+
+.post h6{
+    visibility: hidden;
+}
+
+
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(225, 222, 228);
+    padding: 1vh;
+}
+
+
+footer{
+    height: 10vh;
+    background-color: rgb(36, 117, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer h6{
+    color: aliceblue;
+}
+
+.page {
+    display: none; /* Hidden by default; show it using JavaScript when needed */
+    position: fixed; /* Fixed position to cover the entire viewport */
+    z-index: 9999; /* High z-index to ensure it is on top of other content */
+    background-color: rgba(0, 0, 0, 0.404); /* Semi-transparent background */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: auto; /* Handle overflow if necessary */
+    transition: display 100ms ease-out;
+}
+
+.page-top{
+    width: 100%;
+    height: 6.5vh;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.page-mid{
+    width: 100%;
+    height: 93.5vh;
+    background-color: rgba(143, 136, 136, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-post{
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 5vh;
+    padding: 3vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.page-post hr {
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height of the line */
+    background-color: #333; /* Line color */
+}
+
+.page-top i{
+    font-size: 3rem;
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+    body{
+        margin: 0;
+    }
+
+    .page{
+        top: 10vh
+    }
+        
+    .page-post{
+        width: 100%;
+    }
+    
+    
+}

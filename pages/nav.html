@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/nav.css">
+    <script src="/scripts/nav.js"></script>
+    <title>Document</title>
+</head>
+    <div class="headr">
+        <div class="h_links">
+        <h1>BLOG</h1>
+        <nav>
+            <ul class="ullist">
+                <li><a href="index.html">Home</a></li>
+                <li class="post_list"><a href="Post.html">Posts</a></li>
+            </ul>
+            
+        </nav>
+        </div>
+        <button id="loginbtn" onclick="Go_to_login()"  class="login loginbtn">login</button>
+        <button  id="logoutbtn" onclick="logout()" class="login logoutbtn">logout</button>
+        <i class="bi bi-list Menu" id="Menu"></i>
+    </div>
+    <div class="mob_nav" id="mob_nav">
+        <h1><a href="index.html">Home</a></h1>
+        <h1 class="post_list"><a href="Post.html">Posts</a></h1>
+        <button id="loginbtn"  onclick="Go_to_login()"  class="mb_login loginbtn">login</button>
+        <button id="logoutbtn" onclick="logout()" class="mb_login logoutbtn">logout</button>
+    </div>
+    
+</html>

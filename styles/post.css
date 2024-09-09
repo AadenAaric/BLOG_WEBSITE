@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main{
+    min-height: 90vh;
+    background-color: rgb(226, 217, 217);
+    padding: 1vh;
+}
+
+.post i{
+    font-size: 3rem;
+    color: red;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(36, 117, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer h6{
+    color: aliceblue;
+}
+
+.top{
+    width: 80%;
+    height: max-content;
+    background-color: aliceblue;
+    margin-bottom: 1vh;
+    padding: 1vh;
+    margin-left: 10%;
+    border-radius: 2vh;
+}
+legend{
+    font-size: larger;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(13, 82, 230, 0.644);
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vh;
+}
+
+
+input{
+    margin-top: 1vh;
+}
+
+.title{
+    height: 5vh;
+    width: 100%;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: none;
+}
+
+.description{
+    min-height: 25vh;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 1vh;
+    border: none;
+
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    padding: 1vh;
+}
+.addbtn{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 1vh;
+    background-color: rgb(33, 218, 33);
+}
+
+
+
+.bottom{
+    width: 80%;
+    min-height: 50vh;
+    background-color: aliceblue;
+    padding: 1vh;
+    margin-left: 10%;
+    border-radius: 2vh;
+}
+.post{
+    width: 100%;
+    min-height: 20vh;
+    background-color: aquamarine;
+    padding: 1vh;
+    border-radius: 3vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-div{
+    width: 50%;
+    overflow: hidden;
+}
+
+
+
+
+
+@media screen and (max-width:786px) {
+    body{
+        margin: 0;
+    }
+
+    .top{
+        width: 100%;
+        margin: 0;
+    }
+    .bottom{
+        width: 100%;
+        margin: 0;
+        min-height: 60vh;
+    }
+    .description{
+        min-height: 10vh;
+        max-height: 10vh;
+        overflow: scroll;
+        font-size: 1.1rem;
+    }
+}
