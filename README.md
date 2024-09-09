@@ -16,7 +16,8 @@ The Post Management System is a simple web application that allows users to crea
 
    ### Desktop
 
-         1.![image](https://github.com/user-attachments/assets/8eac8821-033d-4a59-be62-2590587ccc9d)
+         ![image](https://github.com/user-attachments/assets/ce7a8ad4-0e3a-4af9-90d6-9ec258cd5d78)
+
 
 
 ## Installation
