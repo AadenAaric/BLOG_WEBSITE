@@ -11,6 +11,7 @@ The Post Management System is a simple web application that allows users to crea
 - **View Posts**: Display posts in a list format with the option to view more details.
 - **Read More**: Truncated descriptions with a "Read more" link for full content.
 - **Local Storage**: Posts are saved and retrieved from local storage.
+- **Session Management**: Admin login and logout through cookies.
 
 ## DEMO
    https://youtu.be/N-ZzWRImkug
