@@ -12,11 +12,12 @@ The Post Management System is a simple web application that allows users to crea
 - **Read More**: Truncated descriptions with a "Read more" link for full content.
 - **Local Storage**: Posts are saved and retrieved from local storage.
 
-## ScreenShots
+## DEMO
+   https://youtu.be/N-ZzWRImkug
 
-   ### Desktop
+   
+         ![image](https://github.com/user-attachments/assets/1a808851-66e9-418d-b4ed-be34f6f5f340)
 
-         ![image](https://github.com/user-attachments/assets/ce7a8ad4-0e3a-4af9-90d6-9ec258cd5d78)
 
 
 
