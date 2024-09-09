@@ -12,9 +12,17 @@ The Post Management System is a simple web application that allows users to crea
 - **Read More**: Truncated descriptions with a "Read more" link for full content.
 - **Local Storage**: Posts are saved and retrieved from local storage.
 
+## ScreenShots
+
+   ### Desktop
+
+         1.![image](https://github.com/user-attachments/assets/8eac8821-033d-4a59-be62-2590587ccc9d)
+
+
 ## Installation
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+   
